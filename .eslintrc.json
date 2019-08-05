@@ -1,0 +1,23 @@
+{
+    "extends": ["airbnb", "react-app"],
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "rules": {
+        "jsx-a11y/href-no-hash": 0,
+        "jsx-a11y/click-events-have-key-events":0,
+        "jsx-a11y/no-noninteractive-element-interactions":0,
+        "react/jsx-filename-extension": [1, {
+            "extensions": [".js", ".jsx"]
+        }],
+        "react/destructuring-assignment":0,
+        "react/prop-types": 0,
+        "react/no-array-index-key":0,
+        "import/no-extraneous-dependencies":0,
+        "no-param-reassign":0,
+        "indent": [2, 2],
+        "eol-last": 0,
+        "no-console": 0,
+        "no-case-declarations": 0
+    }
+}
